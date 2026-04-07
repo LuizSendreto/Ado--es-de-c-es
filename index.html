@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="fundo">
+
+
+        <h2>Formulario de Adoção</h2>
+
+        <header>
+            <nav>
+                <img src="assets/adoção-pet.png" alt="Foto do guia da página">
+            </nav>
+        </header>
+    </div>    
+
+    <form id="formAdocao">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu Nome">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Digite seu email">
+        <br>
+        
+        <label for="moradia">Moradia:</label>
+        <select name="moradia" id="moradia">
+
+            <option value="">Selecione</option>
+            <option value="casa">Casa</option>
+            <option value="apartamento">Apartamento</option>
+
+        </select>
+        <br>
+
+        <label for="quintal">Possui Quintal?</label>
+        <input type="radio" name="quintal" value="sim>Sim">
+        <input type="radio" name="quintal" value="não>Não">
+        <br>
+        <button type="submit">Enviar</button>
+        
+    </form>
+
+    <div id="resultado"></div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
