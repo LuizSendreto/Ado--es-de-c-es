@@ -21,4 +21,14 @@ form.addEventListener("submit", function (e) {
     }
 
     alert("Formulário enviado com sucesso!");
+    window.location.href = "dogs.html";
+});
+
+
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+
+    alert("Formulário enviado com sucesso!");
+    window.location.href = "dogs.html";
 });
