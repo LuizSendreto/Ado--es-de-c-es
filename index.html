@@ -10,47 +10,53 @@
 </head>
 
 <body>
+
     <div class="fundo">
 
 
-        <h2>Formulario de Adoção</h2>
-
         <header>
             <nav>
-                <img src="assets/adoção-pet.png" alt="Foto do guia da página">
+                <h2>Um Aumigo para Sempre!</h2>
+
+
+                <img id="icon" src="assets/amigo-removebg-preview.png" alt="">
             </nav>
         </header>
-    </div>    
+    </div>
 
-    <form id="formAdocao">
+    <main>
+        <h3>Responda esse Formulario para adotar seu Aumigo!</h3>
+        <form id="formAdocao">
 
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Digite seu Nome">
-        <br>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu Nome">
+            <br>
 
-        <label for="email">Email:</label>
-        <input type="text" id="email" placeholder="Digite seu email">
-        <br>
-        
-        <label for="moradia">Moradia:</label>
-        <select name="moradia" id="moradia">
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Digite seu email">
+            <br>
 
-            <option value="">Selecione</option>
-            <option value="casa">Casa</option>
-            <option value="apartamento">Apartamento</option>
+            <label for="moradia">Moradia:</label>
+            <select name="moradia" id="moradia">
 
-        </select>
-        <br>
+                <option value="">Selecione</option>
+                <option value="casa">Casa</option>
+                <option value="apartamento">Apartamento</option>
 
-        <label for="quintal">Possui Quintal?</label>
-        <input type="radio" name="quintal" value="sim>Sim">
-        <input type="radio" name="quintal" value="não>Não">
-        <br>
-        <button type="submit">Enviar</button>
-        
-    </form>
+            </select>
+            <br>
 
-    <div id="resultado"></div>
+            <label for="quintal">Possui Quintal?</label>
+            <input type="radio" name="quintal" value="sim"> Sim
+            <input type="radio" name="quintal" value="não"> Não
+            <br>
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <div id="resultado"></div>
+
+    </main>
 
 </body>
 <script src="script.js"></script>
