@@ -1,8 +1,17 @@
-
+body{
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+    gap: 0px;
+    background-color: blanchedalmond;
+}
+ 
 #icon{
+    margin-top: 100px;
+    padding: 10px;
    margin-right: 200px;
-    width: 200px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
 
 h2{
@@ -13,6 +22,8 @@ h2{
 }
 
 nav{
+    height: 100px;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,4 +33,13 @@ nav{
 
 .fundo{
     background-color: rgb(228, 185, 145);
+}
+
+#formAdocao{
+    font-size: 20px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
 }
