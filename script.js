@@ -30,6 +30,7 @@ form.addEventListener("submit", function (e) {
     if (!quintal) return alert("Informe o quintal");
     if (!pet) return alert("Informe se já teve pet");
     if (!horas) return alert("Informe as horas");
+    if (horas>8) return alert("O animal ficara muito tempo sozinho");
     if (motivo.length < 10 || motivo === "quero" || motivo === "porque sim")
         return alert("Motivo inválido");
     if (!termo) return alert("Aceite o termo");
